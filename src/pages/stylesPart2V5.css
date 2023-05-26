@@ -1,0 +1,56 @@
+
+/*Buying page*/
+.buying  {
+    overflow: hidden;
+    margin-bottom: 1rem;
+
+}
+
+.buying .text {
+    max-width: 100%;
+    display: flex;
+    align-items: flex-start;
+    float: right;
+  }
+  .buying .Description h2{
+    font-size: 1.4rem;
+    margin-left: 2rem;
+    
+  }
+
+
+.product-page {
+    float: left;
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .thumbnails {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 20px;
+  }
+  
+  .thumbnails img {
+    display: block;
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .main-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    width: 20rem;
+    object-fit: cover;
+  }
+  
+
+  
+  .thumbnails img:hover {
+    transform: scale(1.1);
+  }
+
